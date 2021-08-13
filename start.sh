@@ -2,4 +2,4 @@
 
 echo "start"
 
-ssh root@tun.ittps.ru
+ssh root@tun.ittps.ru -v
