@@ -1,0 +1,5 @@
+name: SSHTunnel start
+        run: |
+          ssh root@avt.ittps.ru -p 2222 -T -L 0.0.0.0:3322:0.0.0.0:22 -vvv -N
+          echo Add other actions to build,
+          echo test, and deploy your project.
